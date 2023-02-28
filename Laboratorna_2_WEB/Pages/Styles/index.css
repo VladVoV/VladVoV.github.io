@@ -1,0 +1,38 @@
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+p{
+    font-size: 1.2em;
+}
+ul>:nth-child(1) a{
+    color: olivedrab;
+}
+ul>:nth-child(1)  a:visited{
+    color: fuchsia;
+}
+ul>:nth-child(2)  a{
+    color: firebrick;
+}
+ul>:nth-child(2)  a:visited{
+    color: goldenrod;
+}
+ul>:nth-child(3)  a{
+    color: limegreen;
+}
+ul>:nth-child(3)  a:visited{
+    color: orchid;
+}
+ul>:nth-child(4)  a{
+    color: cyan;
+}
+ul>:nth-child(4)  a:visited{
+    color: indigo;
+}

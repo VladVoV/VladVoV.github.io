@@ -1,0 +1,40 @@
+a{
+    text-decoration: none;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+.backToIndex{
+    font-style: italic;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-spacing: 5px;
+}
+table  th{
+    width: 180px;
+    background-color: #57c52a;
+    color: #ab1844;
+    font-weight: 700;
+}
+table td:nth-child(2n){
+    background-color: #4f4f4f;
+    color: #c0ccc9;
+}
+table td:nth-child(2n+1){
+    background-color: #fff5f5;
+    color: #34092a;
+}
+
+table td:nth-child(5) {
+    text-align: right;
+}
+th, td {
+    padding: 8px;
+    border: 3px solid #ccc; /* Sets a 1-pixel solid border around each cell */
+}
