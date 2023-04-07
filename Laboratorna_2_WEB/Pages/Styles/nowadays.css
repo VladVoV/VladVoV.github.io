@@ -9,11 +9,11 @@ h1{
 h2{
 text-align: center;
 }
-ul>:nth-child(2n){
-    background-color: #4f4f4f;
-    color: #c0ccc9;
-}
 ul>:nth-child(2n+1){
+    background-color: #4f4f4f;
+    color: #FFFFC9;
+}
+ul>:nth-child(2n){
     background-color: #fff5f5;
     color: #34092a;
 }
