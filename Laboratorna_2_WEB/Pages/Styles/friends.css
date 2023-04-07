@@ -18,15 +18,15 @@ table{
 }
 table  th{
     width: 180px;
-    background-color: #57c52a;
-    color: #ab1844;
+    background-color: #0024A7;
+    color: #FFFFE7;
     font-weight: 700;
 }
-table td:nth-child(2n){
+table tr:nth-child(2n){
     background-color: #4f4f4f;
-    color: #c0ccc9;
+    color: #FFFFC9;
 }
-table td:nth-child(2n+1){
+table tr:nth-child(2n+1){
     background-color: #fff5f5;
     color: #34092a;
 }
