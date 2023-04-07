@@ -48,20 +48,20 @@ background-color: fuchsia;
     color: #360101;
 }
 .secondArticle > p{
-    background-color: navajowhite;
-    color: #57c52a;
+    background-color: #FFFF00;
+    color: #0000FF;
 }
 .thirdArticle > p{
-    background-color: olivedrab;
-    color: #61ffff;
+    background-color: #983200;
+    color: #D8FFFF;
 }
 .fourthArticle > p{
-    background-color: firebrick;
-    color: #c138e1;
+    background-color: #CCFF00;
+    color: #36008E;
 }
 .fifthArticle > p{
-    background-color: mediumaquamarine;
-    color: #d27823;
+    background-color: #581F60;
+    color: #5BF764;
 }
 a:nth-of-type(n+2) {
     font-weight: 600;
