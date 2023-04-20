@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+input, button{
+    margin: 0 10px;
+}
