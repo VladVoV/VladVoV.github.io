@@ -1,88 +1,69 @@
+*{
+    box-sizing: border-box;
+}
 h1{
     text-align: center;
-    font-size: 3vw;
 }
-.container{
+.row {
+    width: 90%;
+    margin: 0 auto;
+}
+.row > div{
+    float: left;
+    margin: 10px;
+}
+.block-father{
+    position: relative;
+    background-color: rgba(38, 180, 125, 0.66);
+    border: 3px solid black;
+    height: 18vw;
+}
+.block-father-caption{
+    position: absolute;
+    width: 150px;
     text-align: center;
+    border: solid black;
+    border-right: 3px;
+    border-top: 3px;
+    top: 0;
+    right: 0;
+    margin: 0;
+    left: inherit;
 }
-.block{
-    display: inline-block;
-    width: 80vw;
-    height: 30vw;
-    background-color: #2bc782;
-    border: 3px solid;
-    vertical-align: top;
-    font-size: 1.5vw;
-    text-align: left;
+.block-father-text{
+    padding: 1.2vw 1vw 0;
 }
-.caption{
-    float: right;
-    width: 30%;
-    padding: 2%;
-    border: 0 solid black;
-    border-bottom-width: 3px;
-    border-left-width: 3px;
-    margin-left: 100%;
-    margin-bottom: 1%;
-    text-align: center;
+.first-caption {
+    background-color: #d56b6b;
 }
-.caption-1{
-    background-color: #600c60;
-    color: #ce93da;
-}
-.caption-2{
-    background-color: #407cd5;
-    color: #b8c92a;
-}
-.caption-3{
-    background-color: #d9204b;
-    color: #151c65;
-}
-@media (min-width: 992px) {
-    .block {
-        margin: 0 1%;
-        width: 28vw;
-        height: 15vw;
-        padding-left: 1vw;
-    }
-}
-@media (min-width: 786px) and (max-width: 992px) {
-    h1{
-        font-size: 3.5vw;
-    }
-    .container {
-        display: block;
-    }
 
-    .block {
-        height: 20vw;
-        margin: 2%;
-        padding-left: 1vw;
+.second-caption {
+    background-color: #5fdc5f;
+}
+
+.third-caption {
+    background-color: #4040dc;
+}
+@media (min-width: 993px){
+    .col-lg-4{
+        width:calc(33.33% - 20px);
+        font-size: 1.35vw;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    .col-md-6{
+        width: calc(50% - 20px);
+        font-size: 1.6vw;
+    }
+    .col-md-12{
+        width: calc(100% - 20px);
         font-size: 2.1vw;
     }
-
-    .block:nth-child(1),
-    .block:nth-child(2) {
-        width: 40%;
-    }
-
-    .block:nth-child(3) {
-        width:83.3%;
-        height: 18vw;
-    }
-    .caption-3{
-        width: 15%;
-        padding: 1%;
-    }
 }
-@media (max-width: 786px){
-    h1{
-        font-size: 4.5vw;
+@media (max-width: 768px){
+    .col-sm-12{
+        width:100%;
+        font-size: 2.1vw;
     }
-    .block{
-        margin: 3% 0;
-        font-size: 3.5vw;
-    }
-
 }
 
