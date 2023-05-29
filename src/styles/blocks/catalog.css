@@ -1,0 +1,19 @@
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  width: 944px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.catalog > :nth-child(n) {
+  margin-right: 48px;
+  margin-bottom: 45px;
+}
+.catalog > :nth-child(4n) {
+  margin-right: 0;
+}
+.catalog > :nth-last-child(-n+4) {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=catalog.css.map */

@@ -1,0 +1,37 @@
+.catalog {
+  padding: 100px 0 200px 0;
+  display: grid;
+  gap: 30px 25px;
+  justify-items: center;
+
+  @include onPhone {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: stretch;
+    margin: 0 20%;
+  }
+
+  @include onSmallTablet {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 10%;
+    justify-items: stretch;
+  }
+
+  @include onTablet {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 5%;
+    justify-items: stretch;
+  }
+
+  @include onSmallDesktop {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 900px;
+    margin-inline: auto;
+  }
+
+  @include onDesktop {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1200px;
+    margin-inline: auto;
+    justify-items: stretch;
+  }
+}

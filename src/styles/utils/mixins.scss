@@ -1,0 +1,30 @@
+@mixin onDesktop {
+  @media (min-width: $layout-breakpoint-large) {
+    @content;
+  }
+}
+
+@mixin onSmallDesktop {
+  @media (min-width: $layout-breakpoint-medium) and (max-width: $layout-breakpoint-large) {
+    @content;
+  }
+}
+
+@mixin onTablet {
+  @media (min-width: $layout-breakpoint-small) and (max-width: $layout-breakpoint-medium) {
+    @content;
+  }
+}
+
+@mixin onSmallTablet {
+  @media (min-width: $layout-breakpoint-extra-small) and (max-width: $layout-breakpoint-small) {
+    @content;
+  }
+}
+
+@mixin onPhone {
+  @media (max-width: $layout-breakpoint-extra-small) {
+    @content;
+  }
+}
+

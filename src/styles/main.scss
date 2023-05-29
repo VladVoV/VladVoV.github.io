@@ -1,0 +1,20 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #aaa;
+}
+
+
+@import "./utils/variables";
+@import "./utils/mixins";
+
+@import "./blocks/header.scss";
+@import "./blocks/card";
+@import "./blocks/stars";
+@import "./blocks/catalog";
+@import "./blocks/footer";
+@import "./blocks/about";
+@import "./blocks/content";
