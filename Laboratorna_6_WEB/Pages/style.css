@@ -1,0 +1,81 @@
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+p {
+    font-size: 120%;
+}
+
+.link > a {
+    text-decoration: none;
+}
+
+.nav > :nth-child(1) a {
+    color: olivedrab;
+}
+
+.nav > :nth-child(1) a:visited {
+    color: fuchsia;
+}
+
+.nav > :nth-child(2) a {
+    color: firebrick;
+}
+
+.nav > :nth-child(2) a:visited {
+    color: goldenrod;
+}
+
+.nav> :nth-child(3) a {
+    color: limegreen;
+}
+
+.nav > :nth-child(3) a:visited {
+    color: orchid;
+}
+
+.nav > :nth-child(4) a {
+    color: cyan;
+}
+
+.nav > :nth-child(4) a:visited {
+    color: indigo;
+}
+
+
+.nav {
+    display: flex;
+    font-size: 20px;
+
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .link {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .nav {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .link {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 50px;
+    }
+}

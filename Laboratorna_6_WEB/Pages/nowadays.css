@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+nav {
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul:not(li ul) > li:nth-child(odd) {
+    background-color: lightgrey;
+    color: #30036A;
+}
+
+ol:not(li ol) > li:nth-child(3),
+ol:not(li ol) > li:nth-child(5)
+{
+    cursor: pointer;
+}
+
+ol:not(li ol) > li:nth-child(4) {
+    background-color: yellowgreen;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media (min-width: 993px) {
+    .container {
+        flex-direction: row;
+        gap: 30px;
+    }
+}
