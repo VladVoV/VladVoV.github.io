@@ -1,0 +1,62 @@
+.contact-us-container{
+    background-color: #212020;
+}
+.contact-us {
+    color: #B0B0B0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #212020;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: #B0B0B0;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-methods label {
+    width: 23%;
+    display: flex;
+    align-items: center;
+}
+
+.contact-methods input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .contact-us-container{
+        width: 50%;
+    }
+}

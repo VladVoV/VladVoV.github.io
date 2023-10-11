@@ -1,0 +1,59 @@
+
+.image-gallery {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    background-color: #212020;
+}
+
+.image-gallery img {
+    margin: auto;
+    max-width: 80%;
+    height: 80%;
+    object-fit: contain;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #007bff;
+    padding: 5px;
+}
+
+.navigation button:hover {
+    color: #0056b3;
+}
+
+.navigation .prev-button {
+    position: absolute;
+    left: 10px;
+}
+
+.navigation .next-button {
+    position: absolute;
+    right: 10px;
+}
+
+.image-gallery > h2{
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .navigation button{
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .navigation button{
+        font-size: 48px;
+    }
+}
